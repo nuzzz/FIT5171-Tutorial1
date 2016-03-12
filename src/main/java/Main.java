@@ -3,7 +3,8 @@
  */
 public class Main {
     public static void main(String args[]) {
-        AnagramDetector ad = new AnagramDetector();
-        ad.checkAnagram("abc", "cba");
+        AnagramTools at = new AnagramTools();
+        System.out.println(at.checkAnagram("aBC", "CbA"));
+        at.checkAnagram("murder", "rumred");
     }
 }
